@@ -1,0 +1,14 @@
+Table (Entity)
+Row (Tuple)
+Column (Attribute)
+
+DBMS (Database Management Systement)
+- DML (Data Manipulation Language) : Insert, Update, Delete (Queries)
+- DDL (Data Definition Language) : Create, Alter, Drop (Queries)
+- DQL (Data Query Language) : Select
+
+In DBMS:
+- Grant  -> Save (Permission)
+- Revoke -> Restore
+
+RDBMS (Relational Database Managemen System)
