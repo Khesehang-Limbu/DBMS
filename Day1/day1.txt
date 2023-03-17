@@ -12,3 +12,4 @@ In DBMS:
 - Revoke -> Restore
 
 RDBMS (Relational Database Managemen System)
+

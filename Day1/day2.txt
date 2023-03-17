@@ -1,0 +1,53 @@
+File Processing Systems (Traditional file system) - if physical format of the file is changed the program has also to be changed
+-> Each application has data files related to containing all the data records needed by application
+-> SUch system stores data in .txt file format or .dat or .doc file format, It stores data in a single line (i.e. line by line), with fixed delimiters as whitespaces, comma, tabs, or other special characters
+
+Integrity, in the context of computer systems, refers to methods of ensuring that data is real, accurate and safeguarded from unauthorized user modification.
+
+-----------------------------------------------------------------------------------------------------------------------
+Limitations:
+- Data redundancy and inconsistency (redundancy is like repitition)
+- Data accessing is difficult
+- Data Isolation (At a time only one person can work)
+- Integrity Problems (one is combine and another is reliable, combining is diffuclt)
+- Atomicity Problems (Atomicity Consistency Isolation Durability => Data goes at once or not, consistent, Durability -> even if system fails, data remains)
+- Concurrent-access anomalies
+- Security problems (No authorization facility)
+- Wastage of Labor and Space (Requires more space)
+
+In DBMS, data is stored in file, but in RDBMS, in tabular form
+
+------------------------------____-------------------------------------------------------------------------------------------
+Advantages:
+- Quick and easy to set up and use
+- Easy to understand
+- Easy to implement
+- Less hardware and software requirements
+- Less initial investment
+- Less skills required to handle flat database systems
+- Less overhead
+- Best for small business
+
+Purpose of DBMS:-
+- To reduce redundancy
+- To avoid inconsistency (Customer address)
+- TO share data
+- TO provide support for transactions
+- To maintain integrity (Studnet roll number in different filed)
+- To enfore Security
+- To provide efficient backup and recovery
+- TO concurrent access database
+
+Disadvantages of DBMS
+- Problem associated twith centralization
+- INcreased costs
+- Maintaining intricacy (complexity)
+- Frequent upgrade/replacement cycles
+- Complextiy of backup and recovery
+
+Database users are categorized in five groups:
+- Native User (A user who uses a database)
+- Application programmers (Programmers who use database in their backend)
+- Sophisticated Users (Engineers, Doctors, Pilot, field-specialists who use SQL Query)
+- Specialized Users (Computer Aided Design, expert system, knowledge base (specific field ))
+- Stand-alone Users (Only one database, not linked with other databases)
