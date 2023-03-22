@@ -1,0 +1,62 @@
+Hamro sir - 9860394143
+Database Design - Collection of process that
+
+Designs- 
+- Requirement Gathering -> Database Requirement
+- Conceptual Design -> Conceptual Design (Highlevel Conceptual Schema)
+- Logical Design -> Database Conceptual Schema
+- Physical Design -> Database Internal Schema
+
+Requirement Collection:
+- What to do? Essential things that drive the db design
+- System Definition (scope and boundaries of the proposed database system)
+- Planning of entire db
+
+Conceptual Design:
+- Diagram banayera small prblems lai solve garne
+- The early stage of a design process, which includes design iterations, experiences, and strategies
+- Describe small fragments of the application in terms of ER Diagram
+- For a large organization, the number of users should be relatively more
+- Using a high level conceptual schema gives additional advantage that the high level can diagrammatically represented and is easily understood by many people, who must provide intput to the design process (ER diagram)
+
+Logical Design:
+- How to arrange the attributes of the entities (tables) in a given business enviroment into database structures such as tables of relational database.
+- kasari tables haru lai manage garne
+- Used to create well structured tables that properly reflect the company's business enviroment i.e. harek company ko aafno software hunxa, timle yesari databse banau ki jun chai sabai le bujhos
+- Relationships must be supported using foreign keys and the duplicate data should not be included, making the databse non-reduntant
+
+Physical Design:
+- It descirbes how data is stored, define relationships in DBMS (kasari relationship establish vayeko xa)
+- hamlai nachine data haru chai avoid garna paryo, oprimizing performance
+- Transform the entities into table, instance into rows, and attributes into columns (each cell is called field)
+- Translate Logical data model into a set of SQL statements that defines the db.
+- Easy to translate logical into phyiscal model
+
+Rules for translating logical to physucal :
+- entites to tables
+- attributes to columns 
+- Unique identifier becomes columns taht are not allowed to have NULL values (primary and foreign)
+- Relationships are modeled as foreign keys
+
+Steps of Database Designing:
+- Determine the purpose of your database
+- Find and organize the information required (e.g. Restaurant -> client, customer (id, phone))
+- Divide the information into tables - (All information to tables -> real object ko attributes)
+- information items into column0
+- Specify primary keys
+- Set up the table relationships
+- Refine your design
+- Apply normalization rules
+
+Data Models :
+- It defines how the logical structure of a databse is modeled .
+- It defines how data is connected to each other and how they are processed and stored inside the syste,
+
+Different Data Models :
+- Hiererchical MOdel - It organizes data into a tree like structure with a single root. Single parent node. Cardinality is one to many.
+- Networ Model - One table is linked to another (Data are organized more lika a graph, allowed to have more than one parent node) Data is more related as more relationships are establised in this model. Data access time is easire and fast. Many to many relationship usually.
+- Entity-Relationship MOdel
+- Relational Model
+- Object Oreiented Model
+- Object Relational Model
+
