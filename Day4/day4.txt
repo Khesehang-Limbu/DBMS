@@ -1,0 +1,33 @@
+Entity Relationship Model
+- Relationship are created by dividing object of interest into entity and its characteristics into attributes
+- Different entities are related using relationships
+
+Relatinal Model:
+- Data is organized in two dimensional tables
+- one field is common in two tables, realtionships managed using primary and foreign key.
+- Tables are known as relations in realtional model
+- information related to a particular type is stored in rows of table 
+
+Object Oriented Model:
+- Extended form of ER model with Object Oriented data model
+- Data is stored in the form of objects, classes, and inheritance
+- It represents real world objets, attributes, and behaviors.
+- It provides clear modular structure and easy to maintain and modify the existing code.
+- Class is entity (attributes and behaviors)
+
+- Objets: The real world entities and situations are represented as objects
+- Objects have three properites i.e. state, behavior, and identity
+
+Object Relational Data Model:
+- It is the combination of Object Oriented Database MOdel and Relational Databse Model
+- All data are in the form of tables
+- It supports objects, classes, inheritance, etc and also data types, tabular structure like Realtioal.
+- It's goal is to close the gap between OOM and Relational
+
+Advantages:
+- Extensibility
+- Inheritance
+- Complex Data Type
+
+Disadvantage:
+- Since object and relationships both work together, there may arise errors
