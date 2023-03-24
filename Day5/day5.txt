@@ -1,0 +1,39 @@
+Database Abstraction
+- Database is made up of complex data structure
+- Process of hiding irrevelant details from the user is called data Abstraction
+- It provides an abstract view of the data
+
+- THree level of schema architecture:
+-- Physical (Hides any of the lowest level storage detiails from Database programmer, it uses less number of disks (so less accessing)) DBA (Database Administrator is aware of certain details of the physical organization of the data) DBMS develover uses this level
+
+-- Logical (It describes the stored data in terms of the data model of the DBMS) Programmer and Database Administrator wors on at this
+level of abstraction. It is also known as conceptual level at the schema at this level. Describes what data and relationships exists among the data
+
+-- View (It is the highest level of abstraction, it works on application level) It provides security mechanism to prevent users from accessing certain parts of the database such as employee's salary for security purpose.
+
+Data Indpendence:
+- The capacity to change the database schema without affecting application programs is called data Indpendence.
+    - Logical Data Independence (Capacity to change conceptual schema without affecting associated application proram is called logical data Independence)
+    - Physical Daata Independence (Capacity to change the internal schema without affecting application program is called physical data Independence, relationship of the DBA to manage such changes)
+
+Database Language and Interfaces:
+- DB languages can be used to read, store, and update data in the DB
+
+Types:
+    - DDL (Data Definition Language)  - define db structure or pattern (create schema, tables, indexes, constratins, etc) It create skeleton of the database (function, CREATE (create table), ALTER (add columns or ), DROP, TRUNCATE, RENAME, COMMENT)
+    - DML (Data Manipulation Language) - (accessing and manipulating data inside a database (select, insert, update, delete))
+    - DCL (Data Control Language) - (It is used to retrieve the stored or saved data) Grant (give user privilleges to a user) and Revoke (take privilleges from a user)
+    - TCL (Transaction Control Language) - manage Transaction in the database, it is used to make the changes made to the data in a table by DML (manages statements to be grouped together into logical transactions) 
+        - Commit : It is used to save transaction on the database
+        - Rollback : It is used to store the database to the original since the last commit 
+    - Query By Example - It uses a terminal display (GUI) with attribute names as table headings for queries. Developed by IDM in the 1970s to help users in their retrieval of data from db 
+
+Types of Database System:
+- Centralized DB System (One host comupter accesses all, many terminals) The terminlas are dumb having zero processing power
+- Personal Computer System
+- Clinet/Server Datbasse System
+- Distributed Processing Database System
+
+
+
+
