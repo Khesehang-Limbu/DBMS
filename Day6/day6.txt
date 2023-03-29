@@ -1,0 +1,53 @@
+# Personal Computer System
+# Client/Server Datbase System
+- Client PC asks for requests (It has port and ip address)
+- Server provides an response (It has port)
+The ports on both sides must be same for the communication to establish
+
+- There are two approaches to implement client/server architecture. Its tight coupling is this architecture.
+- There is tight coupling in this architecture as there is no intermediate between client and server.
+
+Note: For application and databse to communicate with each other, we require an API (Application Program Interface). Thes are JDBC and ODBC.
+
+- Coupling : Connecting medium
+
+-- Advantages of 2-Tier Architecture:
+    - Easy to understand as there is direct communication with the database.
+    - Requested data cane be retrieved very quickly as there are less users.
+    - Easy to modify any changes required as direct reuests are sent to the databse
+    
+
+- Three Tier Client-Server Architecture
+    - Presentation Layer (PC, Tablet)
+    - Application Layer (Server)
+    - Databse Server
+
+    Advantages:
+        - Easy to maintain and modify : as application layer does all the validation. Any requested changes won't affect any other data.
+        - Improved Security : No direct access to the database, data security increases.
+        - Good Performance : Since this architecture uses cache data once retrieved, there is no nee to hit the database for each request.
+
+    Disadvantage :
+        - A little more complicated
+
+- Distributed Database System : 
+    # Data is shared among various host systems via updates sent either through direct connections on same network or through remote connections via phone or dedicated data lines.
+    # Collection of multiple interconnected database, which are spread physically acrooss various locations that communicate via a computer network.
+    # Data is physically stored across multiple sites
+
+- Database System Architecture :
+    A database system is partitioned into several software compontents that handle multiple taks such as data definition, 
+    Parts
+    - storage manager (Data need to be moved between disk storage and main memory as main memory can't store huge infomration)
+        - Components :
+            - Authorization and integrity manager : (Tests for the satisfaction of integrity constrains and checks for the authorit of the users)
+            - Transaction Manager (Durability)
+            - File Manager (Manages disk storage allocation and data structures)
+            - Buffer Manager (Two types of buffer : Output and Input) Responsible for fetching data from secondary storage to main memory and deciding what data to put in cache
+
+        - Data Structure :
+            - Data Files : It stores the database itself 
+            - Data Dictionary : It stores metadata about the database structure, in particular to the database schema
+            - Indices : It provides fast access to data items that hold particular values
+    - Query Processor 
+
